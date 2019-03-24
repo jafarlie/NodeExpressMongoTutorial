@@ -46,6 +46,7 @@ submitBtn.addEventListener('click', function(){
 
 */
 app.use('/', signup);
+app.use('/signup', signup);
 
 app.use(bodyParser.urlencoded({
     extended: true
