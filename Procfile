@@ -1,1 +1,1 @@
-web: nodemon /Public/scripts/main.js
+web: node main.js
