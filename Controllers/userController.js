@@ -12,8 +12,8 @@ exports.create_user_post = function(req, res){
       } else {
           console.log("Connected"); // ops has the documents added
           
-      }
-    const collection = client.db("heroku_gcl6z7x6").collection("Collection0");
+    }
+    const collection = client.db("heroku_wxdf3cn5").collection("Collection0");
 
     //const name = document.getElementById("studentName")
     //const year = document.getElementById("studentYear")
