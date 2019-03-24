@@ -15,10 +15,10 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <form id="signUpForm" onclick="signUp">
+        <form id="signUpForm" method="POST" action="/signup">
             <input type="text" placeholder="Full Name" id="form_Fname">
             <input type="email" placeholder="Email" id="form_email">
-            <button type="submit" value="Submit">Submit</button>
+            <button type="submit" value="OK" id="form_Submit">Submit</button>
         </form>
         
         <script type="text/javascript" src="./scripts/main.js">
