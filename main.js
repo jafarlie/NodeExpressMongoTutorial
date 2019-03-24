@@ -2,14 +2,11 @@ const express = require('express');
 const app = express();
 
 const mongoose = require('mongoose');
-const bodyParse = require('body-parser');
+const bodyParser = require('body-parser');
 
 app.use(express.json());
 
 const path = require('path');
-
-const uri = "mongodb://heroku_gcl6z7x6:Iwtscf2d!@ds153609.mlab.com:53609/heroku_gcl6z7x6";
-const client = new MongoClient(encodeURI(uri), { useNewUrlParser: true });
 
 const signup = require('./Routes/routes.signup.js');
 

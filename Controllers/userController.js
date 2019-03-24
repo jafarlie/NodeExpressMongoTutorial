@@ -1,4 +1,6 @@
-const User = require('../Models/user');
+//const User = require('../Models/user');
+
+const MongoClient = require('mongodb').MongoClient;
 const uri = "mongodb://heroku_gcl6z7x6:Iwtscf2d!@ds153609.mlab.com:53609/heroku_gcl6z7x6";
 const client = new MongoClient(encodeURI(uri), { useNewUrlParser: true });
 
