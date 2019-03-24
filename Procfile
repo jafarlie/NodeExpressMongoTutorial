@@ -1,0 +1,1 @@
+web: nodemon /Public/scripts/main.js
